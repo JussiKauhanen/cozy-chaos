@@ -4,25 +4,7 @@ A cozy WarioWare-style pile of 19 tiny microgames. Each one lasts a few seconds,
 
 Works with a mouse, a keyboard or a touchscreen, and has layouts for desktop, a phone held sideways and a phone held upright.
 
-## Play locally
-
-Any static file server works. From this folder:
-
-```bash
-python3 -m http.server 8737
-```
-
-Then open http://localhost:8737. Opening `index.html` straight from disk won't load the sprites, so use a server.
-
-Add `?game=slap` (or any game name) to the address to play just one game.
-
-## Publish on GitHub Pages
-
-1. Push this folder to a GitHub repository (it can be the repository's root).
-2. In the repository, go to **Settings → Pages**, set **Source** to *Deploy from a branch*, and pick your main branch and the `/ (root)` folder.
-3. After a minute the game is live at `https://<your-username>.github.io/<repository-name>/`.
-
-Every path in the game is relative, so it works from that sub-folder address. The empty `.nojekyll` file tells GitHub to serve the files as they are.
+### [▶ Try Cozy chaos live](https://jussikauhanen.github.io/cozy-chaos/)
 
 ## What's in here
 
